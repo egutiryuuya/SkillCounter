@@ -1,0 +1,10 @@
+<h1>Skill Counter へようこそ</h1>
+<h3> 登録済みの方 </h3>
+<% if user_signed_in? %>
+<%= link_to "ログアウト",destroy_user_session_path,method: :delete %>
+<% else %>
+<%= link_to "ログインする",user_session_path %>
+<% end %>
+
+<h3>未登録の方</h3>
+<%= link_to "新規登録",new_user_registration_path %><br>
