@@ -1,24 +1,34 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# <Skill Counter>
 
-Things you may want to cover:
+## サイト概要
+### サイトテーマ
+<自分で目標を設定し、それを細かく区切り項目で作成しカウントすることにすることによって勝因や敗因などを統計化しゲームの上達をするSNS、記録アプリ>
 
-* Ruby version
+### テーマを選んだ理由
+<ゲームを効率よく上達するために、自分の問題点、勝率などを統計で表し、何を意識すれば上達できるかを可視化できるアプリがあったらいいなと思ったため、制作しました。
+普通のゲームの攻略サイトとの違いといたしましては、ほとんどのゲーム攻略サイトではもともと有力な情報などが書かれており、ゲームの攻略を簡単にしてしまうものがほとんどですが、
+SkillCounterでは、
+自分の勝ち方や負け方を項目を作成して試行錯誤することにより、自分の力だけで成長できたという実感や自分専用のゲーム攻略サイトのようなものが作れるという点で差別化を図りました。
+>
 
-* System dependencies
+### ターゲットユーザ
+<ゲームがうまくなりたいすべての人>
 
-* Configuration
+### 主な利用シーン
+<ゲームで負けた直後や勝った直後、ゲーム合間の反省する時間>
 
-* Database creation
+## 設計書
+<...>
 
-* Database initialization
+## 開発環境
+- OS：Linux(CentOS)
+- 言語：HTML,CSS,JavaScript,Ruby,SQL
+- フレームワーク：Ruby on Rails
+- JSライブラリ：jQuery
+- IDE：Cloud9
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## 使用素材
+- 外部サービスの画像素材・音声素材を使用した場合は、必ずサービス名とURLを明記してください。
+- 使用しない場合は、使用素材の項目をREADMEから削除してください。
